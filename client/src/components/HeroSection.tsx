@@ -20,6 +20,9 @@ const HeroSection = () => {
         data-testid="hero-image"
       />
 
+      {/* Dark Overlay to improve text visibility */}
+      <div className="absolute inset-0 bg-black/40" />
+
       {/* Content */}
       <div className="relative z-10 text-left px-8 sm:px-12 lg:px-16 max-w-7xl w-full">
         <div className="mb-4">
