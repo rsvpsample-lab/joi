@@ -112,7 +112,7 @@ const HashtagGiftsSection = () => {
               We'd love to see the beautiful moments you capture on our special day!
               <br />
               <br />
-              Kindly mention us on our social media accounts when you share photos and videos from the celebration.
+              Kindly mention us on your social media accounts when you share photos and videos from the celebration.
             </p>
             <div className="bg-gold/10 border border-gold/40 rounded-lg p-4">
               <p className="text-base sm:text-xl md:text-2xl font-semibold text-gold tracking-wide break-words" data-testid="text-wedding-hashtag">
