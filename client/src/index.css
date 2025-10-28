@@ -2,79 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Modern Elegant Design System - Silver & Lilac */
+/* Modern Elegant Design System - Silver & Lilac - 25th Anniversary Edition */
 
 @layer base {
   :root {
-    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme */
+    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme for Silver Anniversary */
     
-    /* 70% PRIMARY - Charcoal/Silver Background */
-    --background: 240 8% 12%; /* Deep charcoal background */
-    --foreground: 270 50% 85%; /* Light lilac text */
+    /* 70% PRIMARY - Bright Silver Background */
+    --background: 240 15% 92%; /* Bright silver background */
+    --foreground: 270 60% 25%; /* Deep lilac text */
 
     /* Card Colors - Primary Palette */
-    --card: 240 6% 18%; /* Rich charcoal cards */
-    --card-foreground: 270 50% 85%; /* Light lilac text on cards */
+    --card: 240 20% 96%; /* Light silver cards */
+    --card-foreground: 270 60% 25%; /* Deep lilac text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 240 8% 14%; /* Deep charcoal popover */
-    --popover-foreground: 270 50% 85%; /* Light lilac text */
+    --popover: 240 20% 94%; /* Light silver popover */
+    --popover-foreground: 270 60% 25%; /* Deep lilac text */
 
     /* Brand Color */
-    --brand: 270 50% 65%; /* Bright lilac - Main brand color */
+    --brand: 270 60% 55%; /* Rich lilac - Main brand color */
     
     /* 20% SECONDARY - Silver (Supporting) */
-    --primary: 240 10% 25%; /* Medium silver primary */
-    --primary-foreground: 270 60% 90%; /* Bright lilac text */
+    --primary: 240 15% 85%; /* Medium silver primary */
+    --primary-foreground: 270 70% 30%; /* Dark lilac text */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 240 8% 30%; /* Light silver secondary */
-    --secondary-foreground: 270 50% 85%; /* Lilac text */
+    --secondary: 240 20% 88%; /* Light silver secondary */
+    --secondary-foreground: 270 60% 30%; /* Lilac text */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 240 6% 20%; /* Muted charcoal */
-    --muted-foreground: 270 30% 70%; /* Muted lilac text */
+    --muted: 240 15% 90%; /* Muted silver */
+    --muted-foreground: 270 40% 40%; /* Muted lilac text */
 
     /* 10% ACCENT - Lilac Accent (Standout Elements & CTAs) */
-    --accent: 270 50% 65%; /* Bright lilac accent */
-    --accent-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
+    --accent: 270 60% 55%; /* Rich lilac accent */
+    --accent-foreground: 0 0% 100%; /* White text on lilac */
 
     /* Lilac/Special Accent - for CTAs and highlights */
-    --gold: 270 50% 65%; /* Bright lilac for buttons */
-    --gold-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
+    --gold: 270 60% 55%; /* Rich lilac for buttons */
+    --gold-foreground: 0 0% 100%; /* White text on lilac */
     
     /* Bright Lilac - for emphasis */
-    --gold-bright: 280 60% 70%; /* Brighter lilac */
+    --gold-bright: 280 65% 60%; /* Brighter lilac */
 
     /* Natural Palette - Lilac & purple accents */
-    --rose-gold: 290 50% 70%; /* Rose lilac accent */
-    --rose-gold-dark: 280 45% 60%; /* Darker rose lilac */
-    --amber-glow: 275 55% 65%; /* Purple lilac glow */
-    --warm-light: 270 50% 75%; /* Warm lilac light */
+    --rose-gold: 290 55% 65%; /* Rose lilac accent */
+    --rose-gold-dark: 280 50% 55%; /* Darker rose lilac */
+    --amber-glow: 275 60% 60%; /* Purple lilac glow */
+    --warm-light: 270 55% 70%; /* Warm lilac light */
 
     /* Natural Accents Palette - Lilac variations */
-    --city-blue: 270 50% 65%; /* Lilac accent */
-    --city-cyan: 275 55% 65%; /* Purple lilac */
-    --city-amber: 280 60% 70%; /* Light lavender */
-    --city-purple: 265 45% 60%; /* Deep lilac */
+    --city-blue: 270 60% 55%; /* Lilac accent */
+    --city-cyan: 275 60% 60%; /* Purple lilac */
+    --city-amber: 280 65% 65%; /* Light lavender */
+    --city-purple: 265 50% 50%; /* Deep lilac */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 270 40% 40%; /* Lilac border */
-    --input: 240 8% 20%; /* Charcoal input */
-    --ring: 270 50% 65%; /* Lilac accent ring */
+    --border: 270 30% 75%; /* Light lilac border */
+    --input: 240 20% 96%; /* Silver input */
+    --ring: 270 60% 55%; /* Lilac accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
     /* Silver & Lilac Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(240, 8%, 12%), hsl(240, 6%, 18%));
-    --gradient-gold: linear-gradient(135deg, hsl(270, 50%, 65%), hsl(280, 60%, 70%));
-    --gradient-night: linear-gradient(180deg, hsl(240, 8%, 12%) 0%, hsl(240, 6%, 18%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(270, 50%, 65%) 0%, transparent 60%);
+    --gradient-elegant: linear-gradient(135deg, hsl(240, 15%, 92%), hsl(240, 20%, 96%));
+    --gradient-gold: linear-gradient(135deg, hsl(270, 60%, 55%), hsl(280, 65%, 60%));
+    --gradient-night: linear-gradient(180deg, hsl(240, 15%, 92%) 0%, hsl(240, 20%, 96%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(270, 60%, 55%) 0%, transparent 60%);
 
     /* Elegant Lilac Shadows */
     --shadow-elegant: 0 20px 50px -10px rgba(180, 140, 210, 0.25);
@@ -103,75 +103,75 @@
   }
 
   .dark {
-    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme */
+    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme for Silver Anniversary */
     
-    /* 70% PRIMARY - Charcoal/Silver Background */
-    --background: 240 8% 12%; /* Deep charcoal background */
-    --foreground: 270 50% 85%; /* Light lilac text */
+    /* 70% PRIMARY - Bright Silver Background */
+    --background: 240 15% 92%; /* Bright silver background */
+    --foreground: 270 60% 25%; /* Deep lilac text */
 
     /* Card Colors - Primary Palette */
-    --card: 240 6% 18%; /* Rich charcoal cards */
-    --card-foreground: 270 50% 85%; /* Light lilac text on cards */
+    --card: 240 20% 96%; /* Light silver cards */
+    --card-foreground: 270 60% 25%; /* Deep lilac text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 240 8% 14%; /* Deep charcoal popover */
-    --popover-foreground: 270 50% 85%; /* Light lilac text */
+    --popover: 240 20% 94%; /* Light silver popover */
+    --popover-foreground: 270 60% 25%; /* Deep lilac text */
 
     /* Brand Color */
-    --brand: 270 50% 65%; /* Bright lilac - Main brand color */
+    --brand: 270 60% 55%; /* Rich lilac - Main brand color */
     
     /* 20% SECONDARY - Silver (Supporting) */
-    --primary: 240 10% 25%; /* Medium silver primary */
-    --primary-foreground: 270 60% 90%; /* Bright lilac text */
+    --primary: 240 15% 85%; /* Medium silver primary */
+    --primary-foreground: 270 70% 30%; /* Dark lilac text */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 240 8% 30%; /* Light silver secondary */
-    --secondary-foreground: 270 50% 85%; /* Lilac text */
+    --secondary: 240 20% 88%; /* Light silver secondary */
+    --secondary-foreground: 270 60% 30%; /* Lilac text */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 240 6% 20%; /* Muted charcoal */
-    --muted-foreground: 270 30% 70%; /* Muted lilac text */
+    --muted: 240 15% 90%; /* Muted silver */
+    --muted-foreground: 270 40% 40%; /* Muted lilac text */
 
     /* 10% ACCENT - Lilac Accent (Standout Elements & CTAs) */
-    --accent: 270 50% 65%; /* Bright lilac accent */
-    --accent-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
+    --accent: 270 60% 55%; /* Rich lilac accent */
+    --accent-foreground: 0 0% 100%; /* White text on lilac */
 
     /* Lilac/Special Accent - for CTAs and highlights */
-    --gold: 270 50% 65%; /* Bright lilac for buttons */
-    --gold-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
+    --gold: 270 60% 55%; /* Rich lilac for buttons */
+    --gold-foreground: 0 0% 100%; /* White text on lilac */
     
     /* Bright Lilac - for emphasis */
-    --gold-bright: 280 60% 70%; /* Brighter lilac */
+    --gold-bright: 280 65% 60%; /* Brighter lilac */
 
     /* Natural Palette - Lilac & purple accents */
-    --rose-gold: 290 50% 70%; /* Rose lilac accent */
-    --rose-gold-dark: 280 45% 60%; /* Darker rose lilac */
-    --amber-glow: 275 55% 65%; /* Purple lilac glow */
-    --warm-light: 270 50% 75%; /* Warm lilac light */
+    --rose-gold: 290 55% 65%; /* Rose lilac accent */
+    --rose-gold-dark: 280 50% 55%; /* Darker rose lilac */
+    --amber-glow: 275 60% 60%; /* Purple lilac glow */
+    --warm-light: 270 55% 70%; /* Warm lilac light */
 
     /* Natural Accents Palette - Lilac variations */
-    --city-blue: 270 50% 65%; /* Lilac accent */
-    --city-cyan: 275 55% 65%; /* Purple lilac */
-    --city-amber: 280 60% 70%; /* Light lavender */
-    --city-purple: 265 45% 60%; /* Deep lilac */
+    --city-blue: 270 60% 55%; /* Lilac accent */
+    --city-cyan: 275 60% 60%; /* Purple lilac */
+    --city-amber: 280 65% 65%; /* Light lavender */
+    --city-purple: 265 50% 50%; /* Deep lilac */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 270 40% 40%; /* Lilac border */
-    --input: 240 8% 20%; /* Charcoal input */
-    --ring: 270 50% 65%; /* Lilac accent ring */
+    --border: 270 30% 75%; /* Light lilac border */
+    --input: 240 20% 96%; /* Silver input */
+    --ring: 270 60% 55%; /* Lilac accent ring */
 
-    --sidebar-background: 240 6% 18%;
-    --sidebar-foreground: 270 50% 85%;
-    --sidebar-primary: 270 50% 65%;
-    --sidebar-primary-foreground: 240 10% 10%;
-    --sidebar-accent: 280 60% 70%;
-    --sidebar-accent-foreground: 240 10% 10%;
-    --sidebar-border: 270 40% 40%;
-    --sidebar-ring: 270 50% 65%;
+    --sidebar-background: 240 20% 96%;
+    --sidebar-foreground: 270 60% 25%;
+    --sidebar-primary: 270 60% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 280 65% 60%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 270 30% 75%;
+    --sidebar-ring: 270 60% 55%;
   }
 
   /* Custom Wedding Animations */
@@ -260,7 +260,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background-color: hsl(240, 8%, 12%);
+    background-color: hsl(240, 15%, 92%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -412,7 +412,7 @@
 
   /* Glass Morphism Effect */
   .glass-effect {
-    background: rgba(30, 30, 40, 0.85);
+    background: rgba(240, 240, 250, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(180, 140, 210, 0.2);
@@ -599,8 +599,8 @@
 
   /* Alternating Section Backgrounds - Silver & Lilac Theme */
   .section-pastel-blue {
-    background-color: hsl(240, 8%, 12%);
-    color: hsl(270, 50%, 85%);
+    background-color: hsl(240, 15%, 92%);
+    color: hsl(270, 60%, 25%);
     position: relative;
     overflow: hidden;
   }
@@ -611,8 +611,8 @@
   }
 
   .section-hard-blue {
-    background: linear-gradient(135deg, hsl(240, 8%, 12%), hsl(240, 6%, 18%));
-    color: hsl(270, 50%, 85%);
+    background: linear-gradient(135deg, hsl(240, 15%, 92%), hsl(240, 20%, 96%));
+    color: hsl(270, 60%, 25%);
     position: relative;
     overflow: hidden;
   }
