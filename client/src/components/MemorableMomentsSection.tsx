@@ -3,18 +3,44 @@ import { motion } from 'framer-motion';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
 
-// Anniversary photos
-import cover1Image from '@assets/cover1_1761648220609.JPG';
-import cover2Image from '@assets/cover2_1761648220609.jpg';
-import cover3Image from '@assets/cover3_1761648220610.JPG';
+// Memory photos
+import memory1 from '@assets/MEMORIES_1761649654850.jpg';
+import memory2 from '@assets/MEMORIES1_1761649654850.jpg';
+import memory3 from '@assets/MEMORIES2_1761649654851.jpg';
+import memory4 from '@assets/MEMORIES3_1761649654851.jpg';
+import memory5 from '@assets/MEMORIES4_1761649654851.jpg';
+import memory6 from '@assets/MEMORIES5_1761649654852.jpg';
+import memory7 from '@assets/MEMORIES6_1761649654852.jpg';
+import memory8 from '@assets/MEMORIES7_1761649654852.jpg';
+import memory9 from '@assets/MEMORIES8_1761649654853.jpg';
+import memory10 from '@assets/MEMORIES9_1761649654853.jpg';
+import memory11 from '@assets/MEMORIES10_1761649654853.jpg';
+import memory12 from '@assets/memories11_1761649654854.JPG';
+import memory13 from '@assets/memories12_1761649654854.jpg';
+import memory14 from '@assets/memories13_1761649654855.jpg';
+import memory15 from '@assets/memories14_1761649654855.jpg';
+import memory16 from '@assets/memories15_1761649654855.jpg';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { src: cover1Image, alt: "Anniversary photo 1", height: "h-80" },
-    { src: cover2Image, alt: "Anniversary photo 2", height: "h-80" },
-    { src: cover3Image, alt: "Anniversary photo 3", height: "h-80" }
+    { src: memory1, alt: "Memory - Beach sunset", height: "h-80" },
+    { src: memory2, alt: "Memory - Resort fun", height: "h-96" },
+    { src: memory3, alt: "Memory - Cozy selfie", height: "h-72" },
+    { src: memory4, alt: "Memory - Dinner date", height: "h-80" },
+    { src: memory5, alt: "Memory - Sweet moments", height: "h-72" },
+    { src: memory6, alt: "Memory - Night out", height: "h-80" },
+    { src: memory7, alt: "Memory - Bucay Abra", height: "h-96" },
+    { src: memory8, alt: "Memory - Together", height: "h-72" },
+    { src: memory9, alt: "Memory - Batanes adventure", height: "h-80" },
+    { src: memory10, alt: "Memory - Beach stroll", height: "h-96" },
+    { src: memory11, alt: "Memory - Holding hands", height: "h-80" },
+    { src: memory12, alt: "Memory - Fun times", height: "h-72" },
+    { src: memory13, alt: "Memory - Batanes hills", height: "h-80" },
+    { src: memory14, alt: "Memory - Mt. Fuji", height: "h-96" },
+    { src: memory15, alt: "Memory - Japan trip", height: "h-80" },
+    { src: memory16, alt: "Memory - Winter wonderland", height: "h-72" }
   ];
 
   return (
@@ -28,13 +54,12 @@ const MemorableMomentsSection = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <motion.div 
-          className="text-center mb-16 flex flex-col items-center justify-center min-h-[140px]"
+          className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
         >
-          <h2 className="text-5xl font-script italic font-black text-gold-bright mb-8" data-testid="text-prenup-photos-title">Save The Date Photos</h2>
-          <p className="text-xl font-script italic max-w-2xl mx-auto leading-relaxed text-[#af57db]">Coming Soon - More images to share</p>
+          <h2 className="text-5xl font-script italic font-black text-gold-bright" data-testid="text-prenup-photos-title">Our Memories</h2>
         </motion.div>
 
         {/* Pinterest-style Masonry Grid */}
