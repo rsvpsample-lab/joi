@@ -17,12 +17,12 @@ const Navigation = () => {
   const navItems = [
     { name: 'Our Moments', href: '#slideshow' },
     { name: 'Countdown', href: '#countdown' },
-    { name: 'Our Commitment', href: '#story' },
+    { name: 'Our Love Story', href: '#story' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Venue', href: '#venue' },
     { name: 'Entourage', href: '#entourage' },
     { name: 'Dress Code', href: '#dresscode' },
-    { name: 'Prenup Photos', href: '#prenup-photos' },
+    { name: 'Our Memories', href: '#prenup-photos' },
     { name: 'RSVP', href: '#rsvp' }
   ];
 
@@ -117,7 +117,7 @@ const Navigation = () => {
                   onClick={() => scrollToSection(item.href)}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
                     activeSection === item.href.slice(1)
-                      ? 'text-primary bg-primary/15'
+                      ? 'text-gold-bright bg-primary/15 font-semibold'
                       : 'text-muted-foreground'
                   }`}
                 >
@@ -150,7 +150,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection(item.href)}
                 className={`block w-full text-left px-3 py-2 text-base font-medium rounded-md transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
                   activeSection === item.href.slice(1)
-                    ? 'text-primary bg-primary/15'
+                    ? 'text-gold-bright bg-primary/15 font-semibold'
                     : 'text-muted-foreground'
                 }`}
               >
