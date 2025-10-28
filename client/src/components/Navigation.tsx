@@ -7,6 +7,8 @@ import Gemini_Generated_Image_iynfgviynfgviynf_removebg_preview from "@assets/Ge
 
 import Gemini_Generated_Image_vt2kv3vt2kv3vt2k_removebg_preview from "@assets/Gemini_Generated_Image_vt2kv3vt2kv3vt2k-removebg-preview.png";
 
+import Gemini_Generated_Image_y1zrrry1zrrry1zr_removebg_preview from "@assets/Gemini_Generated_Image_y1zrrry1zrrry1zr-removebg-preview.png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -103,7 +105,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={Gemini_Generated_Image_vt2kv3vt2kv3vt2k_removebg_preview} alt="I&R" className="h-[75px] w-[75px] object-contain" />
+            <img src={Gemini_Generated_Image_y1zrrry1zrrry1zr_removebg_preview} alt="I&R" className="h-[75px] w-[75px] object-contain" />
           </div>
 
           {/* Desktop Navigation */}
