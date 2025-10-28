@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="mt-8">
             <p className="text-foreground/80 text-sm mb-2">With love and gratitude,</p>
             <p className="text-foreground text-lg mb-4" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Michael & Mary Joi
+              Michael & Joi
             </p>
             <p className="text-foreground/70 text-2xl" style={{ fontFamily: 'Boska, serif', fontWeight: 200 }}>
               11.22.25
