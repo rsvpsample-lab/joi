@@ -23,6 +23,8 @@ const Navigation = () => {
     { name: 'Entourage', href: '#entourage' },
     { name: 'Dress Code', href: '#dresscode' },
     { name: 'Our Memories', href: '#prenup-photos' },
+    { name: 'Important Reminders', href: '#hashtag-gifts' },
+    { name: 'Capture & Share', href: '#hashtag-gifts' },
     { name: 'RSVP', href: '#rsvp' }
   ];
 
@@ -117,7 +119,7 @@ const Navigation = () => {
                   onClick={() => scrollToSection(item.href)}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
                     activeSection === item.href.slice(1)
-                      ? 'text-gold-bright bg-primary/15 font-semibold'
+                      ? 'text-gold bg-primary/30 font-semibold'
                       : 'text-muted-foreground'
                   }`}
                 >
@@ -150,7 +152,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection(item.href)}
                 className={`block w-full text-left px-3 py-2 text-base font-medium rounded-md transition-all duration-300 hover:bg-primary/20 hover:text-accent ${
                   activeSection === item.href.slice(1)
-                    ? 'text-gold-bright bg-primary/15 font-semibold'
+                    ? 'text-gold bg-primary/30 font-semibold'
                     : 'text-muted-foreground'
                 }`}
               >
