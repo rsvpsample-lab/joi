@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Image Background */}
       <img
         src={heroImage}
-        alt="Michael and Mary Joi"
+        alt="Mike and Joi"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: 'center' }}
         data-testid="hero-image"
@@ -30,7 +30,7 @@ const HeroSection = () => {
             {animationsEnabled ? (
               <TypeAnimation
                 sequence={[
-                  'Michael\n&\nMary Joi',
+                  'Mike\n&\nJoi',
                   () => {
                     setShowElements(true);
                   }
@@ -53,11 +53,11 @@ const HeroSection = () => {
                 }}
                 className="typewriter-text"
               >
-                Michael
+                Mike
                 <br />
                 &
                 <br />
-                Mary Joi
+                Joi
               </span>
             )}
           </h1>
