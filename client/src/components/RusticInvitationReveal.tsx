@@ -24,7 +24,7 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
   });
 
   useEffect(() => {
-    const targetDate = new Date('December 2, 2025 14:00:00').getTime();
+    const targetDate = new Date('November 22, 2025 15:30:00').getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();

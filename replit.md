@@ -1,7 +1,7 @@
 # Wedding Invitation Website
 
 ## Project Overview
-This is a wedding invitation website for Jayrald Lladones & Julie Anne Gacilo's wedding on December 2, 2025. The project is a full-stack JavaScript application showcasing a beautiful wedding invitation with multiple sections including hero, slideshow, invitation details, countdown, story, venue information, RSVP, and more.
+This is a wedding invitation website for Michael & Mary Joi's wedding on November 22, 2025. The project is a full-stack JavaScript application showcasing a beautiful wedding invitation with multiple sections including hero, slideshow, invitation details, countdown, story, venue information, RSVP, and more.
 
 ## Project Architecture
 - **Frontend**: React with TypeScript, Vite for bundling, Tailwind CSS + shadcn/ui for styling
@@ -170,41 +170,19 @@ Successfully migrated from Lovable to Replit environment:
   - Shows "Perfect Score!" message only for 5/5, "Amazing Score!" with actual score for 4/5
   - Implemented functional state updates for reliable score tracking
   - Adjusted invitation paper dimensions: wider (max-w-5xl) and shorter (reduced padding and spacing)
-- **2025-10-25**: Complete wedding details update for Jay & Lianne:
-  - Updated couple names to Jay Lladones & Julie Anne Gacilo (Jay & Lianne)
-  - Changed wedding date to December 2, 2025 at 2:00 PM
-  - Updated ceremony venue to Parish of Immaculate Heart of Mary
-  - Updated reception venue to Jamesville Hotel and Resort
-  - Changed wedding hashtag to #JAYWalaNangSoLIANNE
-  - Updated love story to reflect their 7-year LDR journey (Camarines Norte to Antipolo)
-  - Updated story cards with new titles and content:
-    - "It Started With Friendship"
-    - "LDR Journey"
-    - "Making It Work"
-    - "Seven Years Later"
+- **2025-10-28**: Complete wedding details update for Michael & Mary Joi:
+  - Updated couple names to Michael & Mary Joi
+  - Changed wedding date to November 22, 2025 at 3:30 PM
+  - Updated ceremony venue to St. Joseph the Worker Parish, Greenland Cainta
+  - Updated reception venue to Queen's Garden Cainta
+  - Changed wedding hashtag to #MikefoundhisgreatestJoi
   - Updated attire guide:
-    - Ninong: Coat and Suit
-    - Ninangs: Gold formal attire
-    - Guests: Semi-formal or formal with touch of green
-  - Updated complete entourage list:
-    - Parents: Leonardo & Cristina Lladones, Rimar & Pacita Gacilo
-    - Principal Sponsors: 10 married couples plus 2 additional female sponsors
-    - Best Man: Engr. Daniel Sena
-    - Maid of Honor: Stephanie Cortes, Mikaela Isabel Reyes
-    - Groomsmen: Robert Gacilo, Jonathan Gacilo
-    - Bridesmaids: Maria Sophia Lagartos, Ariane Pauline Castulo
-    - Secondary Sponsors: Candle, Veil (4 people), Cord (4 people)
-    - Ring Bearer: Jhaziel Tuayon
-    - Coin Bearer: Noah Diasanta
-    - Bible Bearer: Rouge Vermilion Felipe
-  - Updated HTML title and meta descriptions with new couple names and date
-  - Updated all footer and header references throughout the site
-  - Updated venue images with new ceremony (Parish of Immaculate Heart of Mary) and reception (Jamesville Hotel and Resort) photos
-  - Updated Google Maps links for both venues
-  - Changed RSVP deadline to November 15, 2025
-  - Updated gift message with new heartfelt wording
-  - Updated attire section:
-    - Principal Sponsors Gentlemen: Black or suits with motif inspired accents
-    - Principal Sponsors Ladies: Beige, Gold, or Champagne gowns
-    - Guest semi-formal: Emerald green, Sage, Olive green, Gold, or Light gray
-    - White and Ivory lovingly reserved for the couple
+    - Principal Sponsors Gentlemen: Formal attire
+    - Principal Sponsors Ladies: Long Dress in Gray, Lilac, or Silver
+    - Guests: Earth color formal dress
+  - Updated all components with new couple names and date
+  - Changed RSVP deadline to November 8, 2025
+  - Updated hero section with new names (Michael & Mary Joi) and date (11/22/25)
+  - Updated countdown timer to November 22, 2025 at 3:30 PM
+  - Updated all venue details with new Cainta locations and Google Maps links
+  - White and Ivory lovingly reserved for the couple

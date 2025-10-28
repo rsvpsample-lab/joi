@@ -64,12 +64,12 @@ const DressCodeSection = () => {
                   transition={{ duration: 0.8, delay: 8.5 }}
                 />
                 <div className="mt-6 space-y-3">
-                  <p className="text-sm text-foreground/80 font-semibold">Gentlemen: Black or suits with motif inspired accents</p>
-                  <p className="text-sm text-foreground/80 font-semibold">Ladies: Beige, Gold, or Champagne gowns</p>
+                  <p className="text-sm text-foreground/80 font-semibold">Gentlemen: Formal attire</p>
+                  <p className="text-sm text-foreground/80 font-semibold">Ladies: Long Dress in Gray, Lilac, or Silver</p>
                   <div className="flex justify-center gap-3 mt-4">
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#F5F5DC' }} title="Beige"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#FFD700' }} title="Gold"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#F7E7CE' }} title="Champagne"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#808080' }} title="Gray"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#C8A2C8' }} title="Lilac"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#C0C0C0' }} title="Silver"></div>
                   </div>
                 </div>
               </div>
@@ -94,10 +94,10 @@ const DressCodeSection = () => {
                   <div className="mb-6 relative">
                     <div className="absolute inset-0 bg-gradient-to-l from-primary/10 to-transparent rounded-2xl"></div>
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
-                      Guest Semi-Formal
+                      Guests
                     </h3>
                     <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                      <span className="text-sm font-normal text-foreground">SEMI FORMAL</span>
+                      <span className="text-sm font-normal text-foreground">FORMAL</span>
                     </div>
                   </div>
                 </motion.div>
@@ -111,13 +111,13 @@ const DressCodeSection = () => {
                 />
                 <div className="mt-6 space-y-3">
                   <p className="text-sm text-foreground/80">Suggested colors:</p>
-                  <p className="text-sm text-foreground/80 font-semibold">Emerald green, Sage, Olive green, Gold, or Light gray</p>
+                  <p className="text-sm text-foreground/80 font-semibold">Earth color formal dress</p>
                   <div className="flex justify-center gap-3 mt-4">
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#50C878' }} title="Emerald Green"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#8B7355' }} title="Brown"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#C19A6B' }} title="Tan"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#D2B48C' }} title="Beige"></div>
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#8A9A5B' }} title="Sage"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#708238' }} title="Olive Green"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#FFD700' }} title="Gold"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#D3D3D3' }} title="Light Gray"></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#A0826D' }} title="Taupe"></div>
                   </div>
                 </div>
               </div>

@@ -29,7 +29,7 @@ const HeroSection = () => {
             {animationsEnabled ? (
               <TypeAnimation
                 sequence={[
-                  'Jayrald\n&\nJulie Anne',
+                  'Michael\n&\nMary Joi',
                   () => {
                     setShowElements(true);
                   }
@@ -52,11 +52,11 @@ const HeroSection = () => {
                 }}
                 className="typewriter-text"
               >
-                Jayrald
+                Michael
                 <br />
                 &
                 <br />
-                Julie Anne
+                Mary Joi
               </span>
             )}
           </h1>
@@ -65,9 +65,9 @@ const HeroSection = () => {
         <div className={`transition-all duration-700 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <div className="text-right">
             <p className="text-3xl sm:text-4xl md:text-5xl text-white font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 200, textShadow: '2px 2px 8px rgba(0,0,0,0.7), 0 0 20px rgba(0,0,0,0.5)' }} data-testid="text-date">
-              12
+              11
               <br />
-              02
+              22
               <br />
               25
             </p>

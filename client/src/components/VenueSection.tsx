@@ -10,23 +10,23 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Parish of Immaculate Heart of Mary',
-      address: 'Parish of Immaculate Heart of Mary',
+      name: 'St. Joseph the Worker Parish',
+      address: 'Greenland Cainta',
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/cQg4VqGJaz78fuQR9',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+Immaculate+Heart+of+Mary&zoom=15',
-      description: 'Join us at the Parish of Immaculate Heart of Mary as we exchange our vows and begin our journey together in the presence of God, family, and friends.',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=St.+Joseph+the+Worker+Parish+Greenland+Cainta&zoom=15',
+      description: 'Join us at St. Joseph the Worker Parish as we exchange our vows and begin our journey together in the presence of God, family, and friends.',
       details: 'Guest arrival starts at 3:00 PM. The ceremony begins at 3:30 PM. Please arrive early to be seated.',
       startTime: '3:30 PM'
     },
     {
       title: 'Reception',
-      name: 'Jamesville Hotel and Resort',
-      address: 'Jamesville Hotel and Resort',
+      name: "Queen's Garden Cainta",
+      address: "Queen's Garden Cainta",
       image: receptionImage,
       mapUrl: 'https://maps.app.goo.gl/MuXqn1ZBfMXhP6SY6',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Jamesville+Hotel+and+Resort&zoom=15',
-      description: 'Join us at Jamesville Hotel and Resort for our wedding reception. Celebrate with us as we continue our special day with dinner, dancing, and memories.',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Queens+Garden+Cainta&zoom=15',
+      description: "Join us at Queen's Garden Cainta for our wedding reception. Celebrate with us as we continue our special day with dinner, dancing, and memories.",
       details: 'Reception follows after the ceremony. Dinner will be served.',
       startTime: '6:30 PM'
     }
