@@ -51,11 +51,20 @@ const HashtagGiftsSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            <div className="space-y-4 text-lg text-gold-light leading-relaxed" data-testid="text-unplugged-message">
-              <p className="font-semibold">• No children allowed</p>
-              <p className="font-semibold">• No plus one</p>
-              <p className="font-semibold">• Please stay and finish the program</p>
-              <p className="mt-6 text-base italic">
+            <div className="space-y-6 text-base text-gold-light leading-relaxed text-left" data-testid="text-unplugged-message">
+              <p>
+                <span className="font-semibold text-gold block mb-2">No Children Allowed</span>
+                While we love your little ones, we have decided to make our celebration an adults-only event. This will allow all our guests to relax and enjoy the evening without worrying about little ones. We hope this advance notice means you're able to let your hair down and celebrate with us!
+              </p>
+              <p>
+                <span className="font-semibold text-gold block mb-2">No Plus One</span>
+                Due to limited venue capacity, we are only able to accommodate those guests formally invited on your invitation. We appreciate your understanding as we've had to make some difficult decisions to keep our celebration intimate.
+              </p>
+              <p>
+                <span className="font-semibold text-gold block mb-2">Please Stay and Finish the Program</span>
+                We have carefully planned each moment of our celebration to share with you. We kindly ask that you stay for the entire program so we can create lasting memories together. Your presence throughout the celebration means the world to us.
+              </p>
+              <p className="mt-8 text-center italic border-t border-gold/20 pt-6">
                 We appreciate your understanding and cooperation to make our special day memorable for everyone.
               </p>
             </div>
