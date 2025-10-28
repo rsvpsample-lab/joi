@@ -21,58 +21,50 @@ const StorySection = () => {
   const [mousePosition, setMousePosition] = useState<{ [key: number]: { x: number; y: number } }>({});
   const [showFullStoryModal, setShowFullStoryModal] = useState(false);
 
-  const fullStoryText = `It all started with friendship — simple, fun, and full of laughter.
-No expectations, no labels, just two people who genuinely enjoyed each other's company.
-Then one day, out of nowhere, came the question that started it all:
-"Try natin kung magwo-work tayo?"
+  const fullStoryText = `Chapter 1: The Forgotten Beginning (1988)
+It all started in Grade 1, under the watchful eyes of Mrs. Sumulong. He remembers me clearly — the girl who refused to sit beside him because of his chicken pox. I, on the other hand, have no memory of that moment. But somehow, even then, I had already left a mark on him.
 
-There was no pressure, no monthsaries or anniversaries, and no love songs needed — only pure effort, constant communication, and a whole lot of understanding.
+Chapter 2: Friendship in Bloom (1994)
+Fate brought us back together in high school. Same section, same room — but this time, we sat side by side. That's when our friendship blossomed. We became inseparable best friends, sharing laughter, secrets, and teenage adventures. We strolled through malls, hung out after school, and leaned on each other through heartbreaks. Though we had our own love lives, ours was a bond that quietly deepened with time.
 
-But here's the plot twist: we were in a long-distance relationship! 😅
-Jayrald was in Camarines Norte, and Lianne was in Antipolo.
-Two different places, but one shared heart.
-As we always say, finding each other was never easy, that's why our wedding is a celebration of that journey.
+Chapter 3: Sparks in the Silence (1998)
+College gave us a new chance. We reconnected — late-night phone calls, movie dates, and long walks in the mall. It was subtle at first, like a whisper in the wind. But somewhere between the laughter and the silences, love tiptoed in. That's when our story truly began.
 
-There were tough days, moments when we missed each other so much, but we kept going.
-No matter the distance, we always found ways to feel close.
-From random calls and surprise visits to those simple "good morning" and "ingat ka" messages — every little thing became a beautiful part of our story.
+Chapter 4: Against All Odds (1999)
+I was supposed to transfer to Zambales for school, but love makes teenagers reckless. We were young, passionate, and defiant. I stayed in Manila, choosing love over plans. But life had its own twists. We made choices that changed everything. I got pregnant. We married in haste, civilly, and suddenly we were no longer just lovers — we were partners in a storm.
 
-Then came July 22, 2024.
-Jayrald proposed.
-It wasn't your typical "Will you marry me?" moment. Instead, he asked,
-"Pwede ba kitang makasama habang buhay?" 💍
+Chapter 5: Through the Fire
+The road was rocky. There were tears, fights, and moments when it felt like we were falling apart. But somehow, through grace and grit, we found our way back to each other. We held on — not just for our children, but for the love that had weathered every storm.
 
-And on our wedding day, exactly seven years since we first met, here we are — no longer miles apart, but finally side by side.
-
-From "try natin" to "yes, it worked," and now to "this is forever."
-Because when love is real, distance becomes only a test — and our love passed it with flying colors. 💫`;
+Chapter 6: Still Us
+Today, we're still here. Still choosing each other. Still giving our best shot — not just as parents, but as two souls who met as children and grew into love. Ours is not a perfect story, but it's real. It's raw. And it's ours.`;
 
   const storyCards = [
     {
       id: 1,
-      title: "It Started With Friendship",
-      shortText: "Simple, fun, and full of good laughs. No expectations, no labels, just two people who enjoyed each other's company. Then came the question: \"Try natin kung magwo-work tayo?\"",
+      title: "The Forgotten Beginning (1988)",
+      shortText: "It all started in Grade 1, under the watchful eyes of Mrs. Sumulong. He remembers me clearly — the girl who refused to sit beside him because of his chicken pox. I have no memory of that moment, but somehow, I had already left a mark on him.",
       image: lovestory1,
       icon: MessageCircle
     },
     {
       id: 2,
-      title: "LDR Journey",
-      shortText: "Plot twist — LDR pala! 😅 Jay from Camarines Norte and Lianne from Antipolo. Two different places, same heartbeat. 💖",
+      title: "Friendship in Bloom (1994)",
+      shortText: "High school brought us back together. Same section, same room — sitting side by side. We became inseparable best friends, sharing laughter, secrets, and teenage adventures. Our bond quietly deepened with time.",
       image: lovestory2,
       icon: Compass
     },
     {
       id: 3,
-      title: "Making It Work",
-      shortText: "There were hard times, days when we missed each other so much. But we fought through it! Random calls, surprise visits, small messages — every little thing became part of our big story.",
+      title: "Sparks in the Silence (1998)",
+      shortText: "College reconnected us — late-night phone calls, movie dates, and long walks in the mall. It was subtle at first, like a whisper in the wind. But somewhere between the laughter and the silences, love tiptoed in.",
       image: lovestory3,
       icon: Sparkles
     },
     {
       id: 4,
-      title: "Seven Years Later",
-      shortText: "No longer miles apart, but finally side by side. From \"try natin\" to \"yes, it worked,\" and now, \"this is forever.\" Distance was just a test — and ours passed with flying colors. 💫",
+      title: "Against All Odds (1999)",
+      shortText: "Love made us reckless teenagers. I stayed in Manila, choosing love over plans. Life brought twists — I got pregnant. We married in haste, civilly. No longer just lovers — we became partners in a storm.",
       image: lovestory4,
       icon: Heart
     }
@@ -328,15 +320,15 @@ Because when love is real, distance becomes only a test — and our love passed 
 
               <div className="relative z-10 space-y-6 sm:space-y-8">
                 <h3 className="text-3xl sm:text-4xl md:text-5xl font-script italic font-black mb-6 sm:mb-8 text-gold" data-testid="text-story-vow-title">
-                  A Reflection on Isaiah 60:22
+                  Still Us
                 </h3>
                 
                 <div className="max-w-2xl mx-auto">
                   <p className="text-xl sm:text-2xl leading-relaxed italic mb-4 text-gold">
-                    "When the Time is Right, I the Lord Will Make it Happen"
+                    "Today, we're still here. Still choosing each other. Still giving our best shot — not just as parents, but as two souls who met as children and grew into love."
                   </p>
                   <p className="text-base sm:text-lg font-body text-gold">
-                    Isaiah 60:22
+                    Ours is not a perfect story, but it's real. It's raw. And it's ours.
                   </p>
                 </div>
                 

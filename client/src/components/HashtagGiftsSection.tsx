@@ -42,7 +42,7 @@ const HashtagGiftsSection = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             data-testid="text-unplugged-title"
           >
-            Unplugged Ceremony
+            Important Reminders
           </motion.h2>
 
           <motion.div
@@ -51,18 +51,14 @@ const HashtagGiftsSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            <p 
-              className="text-lg text-gold-light leading-relaxed"
-              data-testid="text-unplugged-message"
-            >
-              We kindly ask that you turn off your phones and put away cameras during our ceremony.
-              <br />
-              <br />
-              We want you to be fully present with us as we exchange our vows.
-              <br />
-              <br />
-              Our professional photographer will capture every special moment for us to share with you later. 📸
-            </p>
+            <div className="space-y-4 text-lg text-gold-light leading-relaxed" data-testid="text-unplugged-message">
+              <p className="font-semibold">• No children allowed</p>
+              <p className="font-semibold">• No plus one</p>
+              <p className="font-semibold">• Please stay and finish the program</p>
+              <p className="mt-6 text-base italic">
+                We appreciate your understanding and cooperation to make our special day memorable for everyone.
+              </p>
+            </div>
           </motion.div>
         </motion.div>
 
