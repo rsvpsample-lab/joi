@@ -197,7 +197,7 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
 
         {/* Elegant seal */}
         <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2">
-          <div className="relative w-16 h-16 rounded-full flex items-center justify-center border-2 border-gold/40 bg-[#112417]">
+          <div className="relative w-16 h-16 rounded-full flex items-center justify-center border-2 border-gold/40 bg-[#efeff4]">
             <img src={Gemini_Generated_Image_y1zrrry1zrrry1zr_removebg_preview} alt="I&R" className="h-12 w-12 object-contain" />
           </div>
         </div>
