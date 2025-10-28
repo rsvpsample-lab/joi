@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import groom from '@assets/groom_1761648220610.jpg';
-import couple from '@assets/Couple_1761648220607.jpg';
+import couple from '@assets/cover3_1761658960146.JPG';
 import bride from '@assets/bride_1761648209661.jpg';
 import monogram from '../assets/I&R-monogram.png';
 

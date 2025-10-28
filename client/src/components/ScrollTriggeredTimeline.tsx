@@ -27,7 +27,8 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
             "Post Ceremony Pictorial": "Join us for group photos and memorable captures after the ceremony.",
             "Cocktail Hour": "Relax and mingle with fellow guests over refreshing drinks and appetizers while we prepare for the reception.",
             "Reception Program": "Join us for heartfelt toasts, special performances, and memorable moments as we celebrate our union.",
-            "Dinner": "Enjoy a delicious meal with family and friends, followed by music, dancing, and creating unforgettable memories together."
+            "Dinner": "Enjoy a delicious meal with family and friends, followed by music, dancing, and creating unforgettable memories together.",
+            "Party": "Let's celebrate with music, dancing, and fun! Join us on the dance floor for an unforgettable night of celebration."
         };
         return descriptions[eventName] || "Join us for this special moment in our lives.";
     };
@@ -162,6 +163,13 @@ const timelineEvents: TimelineEvent[] = [
         time: "7:30 PM",
         event: "Dinner",
         icon: Utensils,
+        hueA: 40,
+        hueB: 40,
+    },
+    {
+        time: "8:30 PM",
+        event: "Party",
+        icon: PartyPopper,
         hueA: 40,
         hueB: 40,
     },
