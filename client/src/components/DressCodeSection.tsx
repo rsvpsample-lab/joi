@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
-import guestsImage from "@assets/Gemini_Generated_Image_kvvldkkvvldkkvvl_1761406540773.png";
-import principalSponsorsImage from "@assets/Gemini_Generated_Image_hv706rhv706rhv70_1761406298629.png";
+import guestsImage from "@assets/guests_1761631500642.png";
+import principalSponsorsImage from "@assets/principal_sponsors_1761631500642.png";
 
 const DressCodeSection = () => {
   return (
@@ -116,7 +116,6 @@ const DressCodeSection = () => {
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#8B7355' }} title="Brown"></div>
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#C19A6B' }} title="Tan"></div>
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#D2B48C' }} title="Beige"></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#8A9A5B' }} title="Sage"></div>
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#A0826D' }} title="Taupe"></div>
                   </div>
                 </div>

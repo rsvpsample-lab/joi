@@ -4,9 +4,9 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 // Cover images and video from attached assets
-import cover1Image from '@assets/cover1_1761573126830.JPG';
-import cover2Image from '@assets/cover2_1761573126830.JPG';
-import cover3Image from '@assets/cover3_1761403348868.JPG';
+import cover1Image from '@assets/cover1_1761631500641.JPG';
+import cover2Image from '@assets/cover2_1761631500641.JPG';
+import cover3Image from '@assets/cover3_1761631500641.JPG';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
 import VenueSection from '@/components/VenueSection';

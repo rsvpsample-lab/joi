@@ -1,6 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
 import { useAnimationContext } from '@/contexts/AnimationContext';
+import heroImage from '@assets/hero_section_1761631500642.JPG';
 
 const HeroSection = () => {
   const [showElements, setShowElements] = useState(false);
@@ -10,16 +11,13 @@ const HeroSection = () => {
     <section 
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
-      {/* Video Background */}
-      <video
-        src="https://res.cloudinary.com/db3limorz/video/upload/v1761568053/VICTEL9989small_sbtkiu.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
+      {/* Image Background */}
+      <img
+        src={heroImage}
+        alt="Michael and Mary Joi"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: 'center' }}
-        data-testid="hero-video"
+        data-testid="hero-image"
       />
 
       {/* Content */}
