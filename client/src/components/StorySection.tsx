@@ -230,8 +230,8 @@ Because when love is real, distance becomes only a test — and our love passed 
                 className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-16 items-center relative overflow-hidden rounded-3xl p-8 md:p-12 transition-all duration-300 border border-gold/30 shadow-lg min-h-[600px] mt-12 sm:mt-0"
                 style={{
                   background: mousePosition[card.id] 
-                    ? `radial-gradient(600px circle at ${mousePosition[card.id].x}px ${mousePosition[card.id].y}px, rgba(212, 168, 83, 0.12), #0d1f13 40%), #0d1f13`
-                    : '#0d1f13'
+                    ? `radial-gradient(600px circle at ${mousePosition[card.id].x}px ${mousePosition[card.id].y}px, rgba(180, 140, 210, 0.12), hsl(240, 20%, 96%) 40%), hsl(240, 20%, 96%)`
+                    : 'hsl(240, 20%, 96%)'
                 }}
                 onMouseMove={(e) => handleMouseMove(e, card.id)}
                 onMouseLeave={() => handleMouseLeave(card.id)}
@@ -335,7 +335,7 @@ Because when love is real, distance becomes only a test — and our love passed 
                   <p className="text-xl sm:text-2xl leading-relaxed italic mb-4 text-gold">
                     "When the Time is Right, I the Lord Will Make it Happen"
                   </p>
-                  <p className="text-base sm:text-lg font-body text-[#f4c01f]">
+                  <p className="text-base sm:text-lg font-body text-gold">
                     Isaiah 60:22
                   </p>
                 </div>
