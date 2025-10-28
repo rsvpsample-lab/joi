@@ -2,85 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Modern Elegant Design System - Dark Green & Gold */
+/* Modern Elegant Design System - Silver & Lilac */
 
 @layer base {
   :root {
-    /* 70-20-10 Color Rule: Elegant Dark Green & Gold Theme */
+    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme */
     
-    /* 70% PRIMARY - Dark Green Background */
-    --background: 140 40% 8%; /* Deep dark green background */
-    --foreground: 45 90% 85%; /* Light gold text */
+    /* 70% PRIMARY - Charcoal/Silver Background */
+    --background: 240 8% 12%; /* Deep charcoal background */
+    --foreground: 270 50% 85%; /* Light lilac text */
 
     /* Card Colors - Primary Palette */
-    --card: 140 35% 12%; /* Rich dark green cards */
-    --card-foreground: 45 90% 85%; /* Light gold text on cards */
+    --card: 240 6% 18%; /* Rich charcoal cards */
+    --card-foreground: 270 50% 85%; /* Light lilac text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 140 35% 10%; /* Deep dark green popover */
-    --popover-foreground: 45 90% 85%; /* Light gold text */
+    --popover: 240 8% 14%; /* Deep charcoal popover */
+    --popover-foreground: 270 50% 85%; /* Light lilac text */
 
     /* Brand Color */
-    --brand: 45 95% 55%; /* Bright gold - Main brand color */
+    --brand: 270 50% 65%; /* Bright lilac - Main brand color */
     
-    /* 20% SECONDARY - Dark Green (Supporting) */
-    --primary: 140 50% 20%; /* Deep forest green primary */
-    --primary-foreground: 45 100% 90%; /* Bright gold text */
+    /* 20% SECONDARY - Silver (Supporting) */
+    --primary: 240 10% 25%; /* Medium silver primary */
+    --primary-foreground: 270 60% 90%; /* Bright lilac text */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 140 45% 25%; /* Medium dark green secondary */
-    --secondary-foreground: 45 95% 85%; /* Gold text */
+    --secondary: 240 8% 30%; /* Light silver secondary */
+    --secondary-foreground: 270 50% 85%; /* Lilac text */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 140 30% 15%; /* Muted dark green */
-    --muted-foreground: 45 60% 70%; /* Muted gold text */
+    --muted: 240 6% 20%; /* Muted charcoal */
+    --muted-foreground: 270 30% 70%; /* Muted lilac text */
 
-    /* 10% ACCENT - Gold Accent (Standout Elements & CTAs) */
-    --accent: 45 95% 55%; /* Bright gold accent */
-    --accent-foreground: 140 50% 10%; /* Dark green text on gold */
+    /* 10% ACCENT - Lilac Accent (Standout Elements & CTAs) */
+    --accent: 270 50% 65%; /* Bright lilac accent */
+    --accent-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
 
-    /* Gold/Special Accent - for CTAs and highlights */
-    --gold: 45 95% 55%; /* Bright gold for buttons */
-    --gold-foreground: 140 50% 10%; /* Dark green text on gold */
+    /* Lilac/Special Accent - for CTAs and highlights */
+    --gold: 270 50% 65%; /* Bright lilac for buttons */
+    --gold-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
     
-    /* Bright Gold - for emphasis */
-    --gold-bright: 45 100% 65%; /* Brighter gold */
+    /* Bright Lilac - for emphasis */
+    --gold-bright: 280 60% 70%; /* Brighter lilac */
 
-    /* Natural Earth Palette - Gold & warm accents */
-    --rose-gold: 30 80% 60%; /* Rose gold accent */
-    --rose-gold-dark: 30 70% 50%; /* Darker rose gold */
-    --amber-glow: 40 90% 55%; /* Amber gold glow */
-    --warm-light: 35 85% 65%; /* Warm golden light */
+    /* Natural Palette - Lilac & purple accents */
+    --rose-gold: 290 50% 70%; /* Rose lilac accent */
+    --rose-gold-dark: 280 45% 60%; /* Darker rose lilac */
+    --amber-glow: 275 55% 65%; /* Purple lilac glow */
+    --warm-light: 270 50% 75%; /* Warm lilac light */
 
-    /* Natural Accents Palette - Gold variations */
-    --city-blue: 45 85% 50%; /* Gold accent */
-    --city-cyan: 40 90% 55%; /* Amber gold */
-    --city-amber: 35 95% 60%; /* Light amber */
-    --city-purple: 50 80% 55%; /* Greenish gold */
+    /* Natural Accents Palette - Lilac variations */
+    --city-blue: 270 50% 65%; /* Lilac accent */
+    --city-cyan: 275 55% 65%; /* Purple lilac */
+    --city-amber: 280 60% 70%; /* Light lavender */
+    --city-purple: 265 45% 60%; /* Deep lilac */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 45 60% 30%; /* Gold border */
-    --input: 140 30% 15%; /* Dark green input */
-    --ring: 45 95% 55%; /* Gold accent ring */
+    --border: 270 40% 40%; /* Lilac border */
+    --input: 240 8% 20%; /* Charcoal input */
+    --ring: 270 50% 65%; /* Lilac accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
-    /* Dark Green & Gold Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(140, 40%, 8%), hsl(140, 35%, 12%));
-    --gradient-gold: linear-gradient(135deg, hsl(45, 95%, 55%), hsl(45, 100%, 65%));
-    --gradient-night: linear-gradient(180deg, hsl(140, 40%, 8%) 0%, hsl(140, 35%, 12%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(45, 95%, 55%) 0%, transparent 60%);
+    /* Silver & Lilac Gradients */
+    --gradient-elegant: linear-gradient(135deg, hsl(240, 8%, 12%), hsl(240, 6%, 18%));
+    --gradient-gold: linear-gradient(135deg, hsl(270, 50%, 65%), hsl(280, 60%, 70%));
+    --gradient-night: linear-gradient(180deg, hsl(240, 8%, 12%) 0%, hsl(240, 6%, 18%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(270, 50%, 65%) 0%, transparent 60%);
 
-    /* Elegant Gold Shadows */
-    --shadow-elegant: 0 20px 50px -10px rgba(212, 175, 55, 0.25);
-    --shadow-soft: 0 10px 30px -5px rgba(212, 175, 55, 0.15);
-    --shadow-warm: 0 15px 40px -8px rgba(212, 175, 55, 0.2);
-    --shadow-glow: 0 0 30px rgba(212, 175, 55, 0.3);
+    /* Elegant Lilac Shadows */
+    --shadow-elegant: 0 20px 50px -10px rgba(180, 140, 210, 0.25);
+    --shadow-soft: 0 10px 30px -5px rgba(180, 140, 210, 0.15);
+    --shadow-warm: 0 15px 40px -8px rgba(180, 140, 210, 0.2);
+    --shadow-glow: 0 0 30px rgba(180, 140, 210, 0.3);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
@@ -92,86 +92,86 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 140 35% 12%;
-    --sidebar-foreground: 45 90% 85%;
-    --sidebar-primary: 45 95% 55%;
-    --sidebar-primary-foreground: 140 50% 10%;
-    --sidebar-accent: 45 100% 65%;
-    --sidebar-accent-foreground: 140 50% 10%;
-    --sidebar-border: 45 60% 30%;
-    --sidebar-ring: 45 95% 55%;
+    --sidebar-background: 240 6% 18%;
+    --sidebar-foreground: 270 50% 85%;
+    --sidebar-primary: 270 50% 65%;
+    --sidebar-primary-foreground: 240 10% 10%;
+    --sidebar-accent: 280 60% 70%;
+    --sidebar-accent-foreground: 240 10% 10%;
+    --sidebar-border: 270 40% 40%;
+    --sidebar-ring: 270 50% 65%;
   }
 
   .dark {
-    /* 70-20-10 Color Rule: Elegant Dark Green & Gold Theme */
+    /* 70-20-10 Color Rule: Elegant Silver & Lilac Theme */
     
-    /* 70% PRIMARY - Dark Green Background */
-    --background: 140 40% 8%; /* Deep dark green background */
-    --foreground: 45 90% 85%; /* Light gold text */
+    /* 70% PRIMARY - Charcoal/Silver Background */
+    --background: 240 8% 12%; /* Deep charcoal background */
+    --foreground: 270 50% 85%; /* Light lilac text */
 
     /* Card Colors - Primary Palette */
-    --card: 140 35% 12%; /* Rich dark green cards */
-    --card-foreground: 45 90% 85%; /* Light gold text on cards */
+    --card: 240 6% 18%; /* Rich charcoal cards */
+    --card-foreground: 270 50% 85%; /* Light lilac text on cards */
 
     /* Popover Colors - Primary Palette */
-    --popover: 140 35% 10%; /* Deep dark green popover */
-    --popover-foreground: 45 90% 85%; /* Light gold text */
+    --popover: 240 8% 14%; /* Deep charcoal popover */
+    --popover-foreground: 270 50% 85%; /* Light lilac text */
 
     /* Brand Color */
-    --brand: 45 95% 55%; /* Bright gold - Main brand color */
+    --brand: 270 50% 65%; /* Bright lilac - Main brand color */
     
-    /* 20% SECONDARY - Dark Green (Supporting) */
-    --primary: 140 50% 20%; /* Deep forest green primary */
-    --primary-foreground: 45 100% 90%; /* Bright gold text */
+    /* 20% SECONDARY - Silver (Supporting) */
+    --primary: 240 10% 25%; /* Medium silver primary */
+    --primary-foreground: 270 60% 90%; /* Bright lilac text */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 140 45% 25%; /* Medium dark green secondary */
-    --secondary-foreground: 45 95% 85%; /* Gold text */
+    --secondary: 240 8% 30%; /* Light silver secondary */
+    --secondary-foreground: 270 50% 85%; /* Lilac text */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 140 30% 15%; /* Muted dark green */
-    --muted-foreground: 45 60% 70%; /* Muted gold text */
+    --muted: 240 6% 20%; /* Muted charcoal */
+    --muted-foreground: 270 30% 70%; /* Muted lilac text */
 
-    /* 10% ACCENT - Gold Accent (Standout Elements & CTAs) */
-    --accent: 45 95% 55%; /* Bright gold accent */
-    --accent-foreground: 140 50% 10%; /* Dark green text on gold */
+    /* 10% ACCENT - Lilac Accent (Standout Elements & CTAs) */
+    --accent: 270 50% 65%; /* Bright lilac accent */
+    --accent-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
 
-    /* Gold/Special Accent - for CTAs and highlights */
-    --gold: 45 95% 55%; /* Bright gold for buttons */
-    --gold-foreground: 140 50% 10%; /* Dark green text on gold */
+    /* Lilac/Special Accent - for CTAs and highlights */
+    --gold: 270 50% 65%; /* Bright lilac for buttons */
+    --gold-foreground: 240 10% 10%; /* Dark charcoal text on lilac */
     
-    /* Bright Gold - for emphasis */
-    --gold-bright: 45 100% 65%; /* Brighter gold */
+    /* Bright Lilac - for emphasis */
+    --gold-bright: 280 60% 70%; /* Brighter lilac */
 
-    /* Natural Earth Palette - Gold & warm accents */
-    --rose-gold: 30 80% 60%; /* Rose gold accent */
-    --rose-gold-dark: 30 70% 50%; /* Darker rose gold */
-    --amber-glow: 40 90% 55%; /* Amber gold glow */
-    --warm-light: 35 85% 65%; /* Warm golden light */
+    /* Natural Palette - Lilac & purple accents */
+    --rose-gold: 290 50% 70%; /* Rose lilac accent */
+    --rose-gold-dark: 280 45% 60%; /* Darker rose lilac */
+    --amber-glow: 275 55% 65%; /* Purple lilac glow */
+    --warm-light: 270 50% 75%; /* Warm lilac light */
 
-    /* Natural Accents Palette - Gold variations */
-    --city-blue: 45 85% 50%; /* Gold accent */
-    --city-cyan: 40 90% 55%; /* Amber gold */
-    --city-amber: 35 95% 60%; /* Light amber */
-    --city-purple: 50 80% 55%; /* Greenish gold */
+    /* Natural Accents Palette - Lilac variations */
+    --city-blue: 270 50% 65%; /* Lilac accent */
+    --city-cyan: 275 55% 65%; /* Purple lilac */
+    --city-amber: 280 60% 70%; /* Light lavender */
+    --city-purple: 265 45% 60%; /* Deep lilac */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 45 60% 30%; /* Gold border */
-    --input: 140 30% 15%; /* Dark green input */
-    --ring: 45 95% 55%; /* Gold accent ring */
+    --border: 270 40% 40%; /* Lilac border */
+    --input: 240 8% 20%; /* Charcoal input */
+    --ring: 270 50% 65%; /* Lilac accent ring */
 
-    --sidebar-background: 140 35% 12%;
-    --sidebar-foreground: 45 90% 85%;
-    --sidebar-primary: 45 95% 55%;
-    --sidebar-primary-foreground: 140 50% 10%;
-    --sidebar-accent: 45 100% 65%;
-    --sidebar-accent-foreground: 140 50% 10%;
-    --sidebar-border: 45 60% 30%;
-    --sidebar-ring: 45 95% 55%;
+    --sidebar-background: 240 6% 18%;
+    --sidebar-foreground: 270 50% 85%;
+    --sidebar-primary: 270 50% 65%;
+    --sidebar-primary-foreground: 240 10% 10%;
+    --sidebar-accent: 280 60% 70%;
+    --sidebar-accent-foreground: 240 10% 10%;
+    --sidebar-border: 270 40% 40%;
+    --sidebar-ring: 270 50% 65%;
   }
 
   /* Custom Wedding Animations */
@@ -197,7 +197,7 @@
     }
   }
 
-  @keyframes underlineGold {
+  @keyframes underlineLilac {
     from {
       width: 0;
     }
@@ -215,12 +215,12 @@
     }
   }
 
-  @keyframes goldGlow {
+  @keyframes lilacGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+      box-shadow: 0 0 20px rgba(180, 140, 210, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(212, 175, 55, 0.5);
+      box-shadow: 0 0 40px rgba(180, 140, 210, 0.5);
     }
   }
 
@@ -260,7 +260,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background-color: hsl(140, 40%, 8%);
+    background-color: hsl(240, 8%, 12%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -286,7 +286,7 @@
     left: 0;
     right: 0;
     height: 40%;
-    background: linear-gradient(180deg, rgba(212, 175, 55, 0.15) 0%, transparent 100%);
+    background: linear-gradient(180deg, rgba(180, 140, 210, 0.15) 0%, transparent 100%);
     opacity: 0.4;
     z-index: 0;
     pointer-events: none;
@@ -351,7 +351,7 @@
   }
 
   .animate-gold-glow {
-    animation: goldGlow 3s ease-in-out infinite;
+    animation: lilacGlow 3s ease-in-out infinite;
   }
 
   .animate-bokeh {
@@ -368,7 +368,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+    box-shadow: 0 0 30px rgba(180, 140, 210, 0.4);
   }
 
   .gold-underline {
@@ -378,7 +378,7 @@
   .gold-underline::after {
     content: '';
     @apply absolute bottom-0 left-0 h-0.5;
-    background-color: hsl(45, 95%, 55%);
+    background-color: hsl(270, 50%, 65%);
     width: 0;
     transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -412,10 +412,10 @@
 
   /* Glass Morphism Effect */
   .glass-effect {
-    background: rgba(20, 40, 25, 0.85);
+    background: rgba(30, 30, 40, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(180, 140, 210, 0.2);
   }
 
   /* Clean Mobile Styles */
@@ -485,12 +485,12 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(212, 175, 55, 0.4);
+    background-color: rgba(180, 140, 210, 0.4);
     @apply rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(212, 175, 55, 0.6);
+    background-color: rgba(180, 140, 210, 0.6);
   }
 
   /* Remove any unwanted borders */
@@ -518,7 +518,7 @@
     outline-offset: 2px;
   }
 
-  /* Modern Gold Button with Glow */
+  /* Modern Lilac Button with Glow */
   .shadow__btn {
     padding: 10px 20px;
     border: none;
@@ -531,7 +531,7 @@
     transition: 0.5s;
     transition-property: box-shadow;
     background: hsl(var(--gold));
-    box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+    box-shadow: 0 0 25px rgba(180, 140, 210, 0.4);
   }
 
   .shadow__btn:hover {
@@ -597,10 +597,10 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - Dark Green & Gold Theme */
+  /* Alternating Section Backgrounds - Silver & Lilac Theme */
   .section-pastel-blue {
-    background-color: hsl(140, 40%, 8%);
-    color: hsl(45, 90%, 85%);
+    background-color: hsl(240, 8%, 12%);
+    color: hsl(270, 50%, 85%);
     position: relative;
     overflow: hidden;
   }
@@ -611,8 +611,8 @@
   }
 
   .section-hard-blue {
-    background: linear-gradient(135deg, hsl(140, 40%, 8%), hsl(140, 35%, 12%));
-    color: hsl(45, 90%, 85%);
+    background: linear-gradient(135deg, hsl(240, 8%, 12%), hsl(240, 6%, 18%));
+    color: hsl(270, 50%, 85%);
     position: relative;
     overflow: hidden;
   }
