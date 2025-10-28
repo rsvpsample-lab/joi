@@ -4,9 +4,9 @@ import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/compone
 import { X } from 'lucide-react';
 
 // Anniversary photos
-import cover1Image from '@assets/cover1_1761631500641.JPG';
-import cover2Image from '@assets/cover2_1761631500641.JPG';
-import cover3Image from '@assets/cover3_1761631500641.JPG';
+import cover1Image from '@assets/cover1_1761648220609.JPG';
+import cover2Image from '@assets/cover2_1761648220609.jpg';
+import cover3Image from '@assets/cover3_1761648220610.JPG';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);

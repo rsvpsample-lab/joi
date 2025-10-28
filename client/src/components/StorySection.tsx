@@ -6,10 +6,10 @@ import { useAnimationContext } from '@/contexts/AnimationContext';
 import { Sparkles, Compass, Heart, BookOpen, MessageCircle, X } from 'lucide-react';
 
 // Import new images
-import lovestory1 from '@assets/hero_section_1761631500642.JPG';
-import lovestory2 from '@assets/cover1_1761631500641.JPG';
-import lovestory3 from '@assets/cover2_1761631500641.JPG';
-import lovestory4 from '@assets/cover3_1761631500641.JPG';
+import lovestory1 from '@assets/loveStory1_1761648481014.jpg';
+import lovestory2 from '@assets/loveStory2_1761648481014.jpg';
+import lovestory3 from '@assets/loveStory3_1761648481015.jpg';
+import lovestory4 from '@assets/LoveStory4_1761648481015.jpg';
 
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);

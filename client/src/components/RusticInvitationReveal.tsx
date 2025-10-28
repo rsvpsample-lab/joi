@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import soulmates from '@assets/cover1_1761631500641.JPG';
-import forever from '@assets/cover2_1761631500641.JPG';
-import beloved from '@assets/cover3_1761631500641.JPG';
+import groom from '@assets/groom_1761648220610.jpg';
+import couple from '@assets/Couple_1761648220607.jpg';
+import bride from '@assets/bride_1761648209661.jpg';
 import monogram from '../assets/I&R-monogram.png';
 
 import MONOGRAM_removebg_preview from "@assets/MONOGRAM-removebg-preview.png";
@@ -48,9 +48,9 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
     return () => clearInterval(interval);
   }, []);
   const polaroids = [
-    { src: soulmates, alt: 'Soulmates', rotation: -8 },
-    { src: forever, alt: 'Forever', rotation: 2 },
-    { src: beloved, alt: 'Beloved', rotation: -5 }
+    { src: groom, alt: 'Groom', rotation: -8 },
+    { src: couple, alt: 'Couple', rotation: 2 },
+    { src: bride, alt: 'Bride', rotation: -5 }
   ];
 
   return (
