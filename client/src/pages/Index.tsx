@@ -12,6 +12,7 @@ import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
 import VenueSection from '@/components/VenueSection';
 import DressCodeSection from '@/components/DressCodeSection';
 import HashtagGiftsSection from '@/components/HashtagGiftsSection';
+import PhotoContestSection from '@/components/PhotoContestSection';
 import EntourageSection from '@/components/EntourageSection';
 import RSVPSection from '@/components/RSVPSection';
 import MemorableMomentsSection from '@/components/MemorableMomentsSection';
@@ -116,6 +117,7 @@ const Index = () => {
           />
           <DressCodeSection />
           <HashtagGiftsSection />
+          <PhotoContestSection />
           <RSVPSection />
           <MemorableMomentsSection />
           <EntourageSection />
