@@ -55,19 +55,55 @@ const PhotoContestSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 10.6 }}
         >
-          <div className="bg-white rounded-xl p-6 shadow-soft">
-            <div className="text-center">
-              <img 
-                src={Untitled_design__1_}
-                alt="Photo Upload QR Code"
-                className="w-full max-w-xs mx-auto object-contain mb-4"
-                data-testid="img-photo-upload-qr"
-              />
-              <div className="flex items-center justify-center gap-2 mb-4">
-                <Upload className="w-5 h-5 text-gold" />
-                <p className="text-base font-semibold text-foreground">
-                  Scan to Upload Your Photos
+          <div className="relative bg-gradient-to-br from-white via-white to-purple-50 rounded-2xl p-8 shadow-warm border-2 border-gold/30 overflow-hidden">
+            {/* Decorative Corner Elements */}
+            <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-gold/40 rounded-tl-2xl"></div>
+            <div className="absolute top-0 right-0 w-20 h-20 border-t-2 border-r-2 border-gold/40 rounded-tr-2xl"></div>
+            <div className="absolute bottom-0 left-0 w-20 h-20 border-b-2 border-l-2 border-gold/40 rounded-bl-2xl"></div>
+            <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-gold/40 rounded-br-2xl"></div>
+            
+            {/* Subtle Glow Effect */}
+            <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-gold/10 pointer-events-none"></div>
+            
+            {/* Content */}
+            <div className="relative text-center">
+              {/* Decorative Header */}
+              <div className="flex items-center justify-center gap-3 mb-6">
+                <div className="h-px w-12 bg-gradient-to-r from-transparent to-gold/50"></div>
+                <Upload className="w-6 h-6 text-gold animate-float" />
+                <div className="h-px w-12 bg-gradient-to-l from-transparent to-gold/50"></div>
+              </div>
+              
+              {/* QR Code with Elegant Border */}
+              <div className="relative inline-block mb-6">
+                <div className="absolute inset-0 bg-gold/10 rounded-xl blur-xl"></div>
+                <div className="relative bg-white rounded-xl p-4 shadow-soft border border-gold/20">
+                  <img 
+                    src={Untitled_design__1_}
+                    alt="Photo Upload QR Code"
+                    className="w-full max-w-xs mx-auto object-contain"
+                    data-testid="img-photo-upload-qr"
+                  />
+                </div>
+              </div>
+              
+              {/* Title with Decorative Elements */}
+              <div className="space-y-2">
+                <p className="text-lg font-display italic text-gold">
+                  Scan to Upload
                 </p>
+                <p className="text-sm font-body text-foreground/80">
+                  Share Your Beautiful Moments
+                </p>
+              </div>
+              
+              {/* Decorative Bottom Line */}
+              <div className="flex items-center justify-center gap-2 mt-6">
+                <div className="w-2 h-2 rounded-full bg-gold/40"></div>
+                <div className="w-2 h-2 rounded-full bg-gold/60"></div>
+                <div className="w-2 h-2 rounded-full bg-gold"></div>
+                <div className="w-2 h-2 rounded-full bg-gold/60"></div>
+                <div className="w-2 h-2 rounded-full bg-gold/40"></div>
               </div>
             </div>
           </div>
