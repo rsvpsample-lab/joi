@@ -1,7 +1,7 @@
 
 import { Camera, Award, Upload } from 'lucide-react';
 import { motion } from 'framer-motion';
-import photoUploadQR from '@assets/photo_upload_qr.png';
+import photoUploadQR from '../assets/photo_upload_qr.png';
 
 const PhotoContestSection = () => {
   return (
