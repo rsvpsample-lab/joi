@@ -25,8 +25,9 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
             "Guest Arrival": "We highly encourage you to arrive 30 minutes before the ceremony starts. Please be seated by 3:30 PM.",
             "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises.",
             "Post Ceremony Pictorial": "Join us for group photos and memorable captures after the ceremony.",
-            "Reception Begins": "Join us for heartfelt toasts, special performances, and memorable moments as we celebrate our union.",
-            "Dinner & Celebration": "Enjoy a delicious meal with family and friends, followed by music, dancing, and creating unforgettable memories together."
+            "Cocktail Hour": "Relax and mingle with fellow guests over refreshing drinks and appetizers while we prepare for the reception.",
+            "Reception Program": "Join us for heartfelt toasts, special performances, and memorable moments as we celebrate our union.",
+            "Dinner": "Enjoy a delicious meal with family and friends, followed by music, dancing, and creating unforgettable memories together."
         };
         return descriptions[eventName] || "Join us for this special moment in our lives.";
     };
@@ -144,15 +145,22 @@ const timelineEvents: TimelineEvent[] = [
         hueB: 40,
     },
     {
+        time: "5:30 PM",
+        event: "Cocktail Hour",
+        icon: Wine,
+        hueA: 40,
+        hueB: 40,
+    },
+    {
         time: "6:30 PM",
-        event: "Reception Begins",
+        event: "Reception Program",
         icon: Music,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "7:00 PM",
-        event: "Dinner & Celebration",
+        time: "7:30 PM",
+        event: "Dinner",
         icon: Utensils,
         hueA: 40,
         hueB: 40,
