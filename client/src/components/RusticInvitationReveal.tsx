@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import soulmates from '@assets/imageLoop_1761403348869.JPG';
-import forever from '@assets/imageLoop2_1761403348869.JPG';
-import beloved from '@assets/imageLoop3_1761403348869.JPG';
+import soulmates from '@assets/cover1_1761631500641.JPG';
+import forever from '@assets/cover2_1761631500641.JPG';
+import beloved from '@assets/cover3_1761631500641.JPG';
 import monogram from '../assets/I&R-monogram.png';
 
 import MONOGRAM_removebg_preview from "@assets/MONOGRAM-removebg-preview.png";
@@ -176,14 +176,14 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
               className="text-lg md:text-xl text-gold-light leading-relaxed mb-6 italic"
               style={{ fontFamily: 'Georgia, serif' }}
             >
-              Come witness the moment we tie the knot and start our greatest adventure together
+              Join us as we celebrate 25 years of love, laughter, and beautiful memories
             </p>
 
             <div
               className="text-base md:text-lg text-gold-light"
             >
-              <p className="mb-2">with love, laughter,</p>
-              <p>and a lifetime of memories</p>
+              <p className="mb-2">Silver Wedding Anniversary</p>
+              <p>November 22, 2025</p>
             </div>
 
             {/* Ornamental divider bottom */}
@@ -211,7 +211,7 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
           transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 0.3 } : { duration: 0 }}
         >
           <h2 className="text-4xl font-display text-foreground mb-2" data-testid="text-countdown-title">
-            Forever starts soon
+            25 Years of Love & Counting
           </h2>
         </motion.div>
 

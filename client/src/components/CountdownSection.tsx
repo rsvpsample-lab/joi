@@ -12,7 +12,7 @@ const CountdownSection = () => {
   const { animationsEnabled } = useAnimationContext();
 
   useEffect(() => {
-    const targetDate = new Date('December 2, 2025 14:00:00').getTime();
+    const targetDate = new Date('November 22, 2025 15:30:00').getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -50,7 +50,7 @@ const CountdownSection = () => {
           transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 0.3 } : { duration: 0 }}
         >
           <h2 className="text-4xl font-display text-foreground mb-2" data-testid="text-countdown-title">
-            Forever starts soon
+            25 Years of Love & Counting
           </h2>
         </motion.div>
 

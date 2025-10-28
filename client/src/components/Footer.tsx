@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Grateful Message */}
           <div className="max-w-2xl mx-auto">
             <p className="text-foreground/90 text-base italic leading-relaxed" style={{ fontFamily: 'Georgia, serif' }}>
-              We're grateful to have you as part of our story. You've made our journey more beautiful, and we can't wait to share our special day with you.
+              We're grateful to have you as part of our journey. You've made our 25 years together more beautiful, and we can't wait to celebrate this milestone with you.
             </p>
           </div>
 
@@ -28,10 +28,10 @@ const Footer = () => {
           <div className="mt-8">
             <p className="text-foreground/80 text-sm mb-2">With love and gratitude,</p>
             <p className="text-foreground text-lg mb-4" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Jay & Lianne
+              Michael & Mary Joi
             </p>
             <p className="text-foreground/70 text-2xl" style={{ fontFamily: 'Boska, serif', fontWeight: 200 }}>
-              12.02.25
+              11.22.25
             </p>
           </div>
         </motion.div>

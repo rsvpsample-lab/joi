@@ -3,36 +3,18 @@ import { motion } from 'framer-motion';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
 
-// Prenup photos
-import prenup1 from '@assets/prenup1_1761405611725.JPG';
-import prenup2 from '@assets/prenup2_1761405611726.JPG';
-import prenup3 from '@assets/prenup3_1761405611727.JPG';
-import prenup4 from '@assets/prenup4_1761405611728.JPG';
-import prenup5 from '@assets/prenup5_1761405611729.JPG';
-import prenup6 from '@assets/prenup6_1761405611730.JPG';
-import prenup7 from '@assets/prenup7_1761405611730.JPG';
-import prenup8 from '@assets/prenup8_1761405611731.JPG';
-import prenup9 from '@assets/prenup9_1761405611731.JPG';
-import prenup10 from '@assets/prenup10_1761405611732.JPG';
-import prenup11 from '@assets/prenup11_1761405611732.JPG';
-import prenup12 from '@assets/prenup12_1761405611733.JPG';
+// Anniversary photos
+import cover1Image from '@assets/cover1_1761631500641.JPG';
+import cover2Image from '@assets/cover2_1761631500641.JPG';
+import cover3Image from '@assets/cover3_1761631500641.JPG';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { src: prenup1, alt: "Prenup photo 1", height: "h-80" },
-    { src: prenup2, alt: "Prenup photo 2", height: "h-80" },
-    { src: prenup3, alt: "Prenup photo 3", height: "h-72" },
-    { src: prenup4, alt: "Prenup photo 4", height: "h-64" },
-    { src: prenup5, alt: "Prenup photo 5", height: "h-80" },
-    { src: prenup6, alt: "Prenup photo 6", height: "h-96" },
-    { src: prenup7, alt: "Prenup photo 7", height: "h-72" },
-    { src: prenup8, alt: "Prenup photo 8", height: "h-80" },
-    { src: prenup9, alt: "Prenup photo 9", height: "h-64" },
-    { src: prenup10, alt: "Prenup photo 10", height: "h-80" },
-    { src: prenup11, alt: "Prenup photo 11", height: "h-96" },
-    { src: prenup12, alt: "Prenup photo 12", height: "h-80" }
+    { src: cover1Image, alt: "Anniversary photo 1", height: "h-80" },
+    { src: cover2Image, alt: "Anniversary photo 2", height: "h-80" },
+    { src: cover3Image, alt: "Anniversary photo 3", height: "h-80" }
   ];
 
   return (
@@ -52,10 +34,10 @@ const MemorableMomentsSection = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
         >
           <h2 className="text-5xl font-script italic font-black text-gold-bright mb-8" data-testid="text-prenup-photos-title">
-            Save the Date Photos
+            Our Journey
           </h2>
           <p className="text-xl font-script italic max-w-2xl mx-auto leading-relaxed text-[#af57db]">
-            Captured moments before forever begins
+            Coming Soon - More memories to share
           </p>
         </motion.div>
 
@@ -94,8 +76,8 @@ const MemorableMomentsSection = () => {
         {/* Lightbox Modal */}
         <Dialog open={selectedImage !== null} onOpenChange={() => setSelectedImage(null)}>
           <DialogContent className="max-w-7xl w-full h-[90vh] p-0 bg-black/95 border-none">
-            <DialogTitle className="sr-only">Prenup Photo Gallery</DialogTitle>
-            <DialogDescription className="sr-only">View prenup photo in full size</DialogDescription>
+            <DialogTitle className="sr-only">Anniversary Photo Gallery</DialogTitle>
+            <DialogDescription className="sr-only">View anniversary photo in full size</DialogDescription>
             
             <div className="relative w-full h-full flex items-center justify-center p-4">
               {/* Close Button */}
