@@ -33,12 +33,8 @@ const MemorableMomentsSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
         >
-          <h2 className="text-5xl font-script italic font-black text-gold-bright mb-8" data-testid="text-prenup-photos-title">
-            Our Journey
-          </h2>
-          <p className="text-xl font-script italic max-w-2xl mx-auto leading-relaxed text-[#af57db]">
-            Coming Soon - More memories to share
-          </p>
+          <h2 className="text-5xl font-script italic font-black text-gold-bright mb-8" data-testid="text-prenup-photos-title">Save The Date Photos</h2>
+          <p className="text-xl font-script italic max-w-2xl mx-auto leading-relaxed text-[#af57db]">Coming Soon - More images to share</p>
         </motion.div>
 
         {/* Pinterest-style Masonry Grid */}

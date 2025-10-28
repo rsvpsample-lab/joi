@@ -44,7 +44,7 @@ const RSVPSection = () => {
                 <Calendar className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-display font-semibold mb-2 text-foreground">RSVP Deadline</h3>
-              <p className="text-lg text-muted-foreground">November 8, 2025</p>
+              <p className="text-lg text-muted-foreground">November 15, 2025</p>
             </div>
 
             {/* RSVP Message */}
@@ -95,7 +95,6 @@ const RSVPSection = () => {
           </p>
         </motion.div>
       </div>
-
       {/* Animated RSVP Button Styles */}
       <style>{`
         .animated-rsvp-btn {
