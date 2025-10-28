@@ -3,6 +3,8 @@ import { Camera, Award, Upload } from 'lucide-react';
 import { motion } from 'framer-motion';
 import photoUploadQR from '../assets/photo_upload_qr.png';
 
+import Untitled_design__1_ from "@assets/Untitled design (1).jpg";
+
 const PhotoContestSection = () => {
   return (
     <motion.section 
@@ -17,7 +19,6 @@ const PhotoContestSection = () => {
         <div className="absolute bottom-1/4 right-1/4 w-48 h-48 border border-white/30 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
         <div className="absolute top-3/4 left-3/4 w-24 h-24 border border-white/30 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
       </div>
-
       <div className="max-w-4xl mx-auto text-center relative z-10">
         {/* Section Header */}
         <motion.div 
@@ -57,7 +58,7 @@ const PhotoContestSection = () => {
           <div className="bg-white rounded-xl p-6 shadow-soft">
             <div className="text-center">
               <img 
-                src={photoUploadQR}
+                src={Untitled_design__1_}
                 alt="Photo Upload QR Code"
                 className="w-full max-w-xs mx-auto object-contain mb-4"
                 data-testid="img-photo-upload-qr"
