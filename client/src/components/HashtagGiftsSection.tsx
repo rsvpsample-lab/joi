@@ -53,10 +53,6 @@ const HashtagGiftsSection = () => {
           >
             <div className="space-y-6 text-base text-gold-light leading-relaxed text-left" data-testid="text-unplugged-message">
               <p>
-                <span className="font-semibold text-gold block mb-2">No Children Allowed</span>
-                While we love your little ones, we have decided to make our celebration an adults-only event. This will allow all our guests to relax and enjoy the evening without worrying about little ones. We hope this advance notice means you're able to let your hair down and celebrate with us!
-              </p>
-              <p>
                 <span className="font-semibold text-gold block mb-2">No Plus One</span>
                 Due to limited venue capacity, we are only able to accommodate those guests formally invited on your invitation. We appreciate your understanding as we've had to make some difficult decisions to keep our celebration intimate.
               </p>
