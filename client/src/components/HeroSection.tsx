@@ -1,11 +1,19 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
 import { useAnimationContext } from '@/contexts/AnimationContext';
+import { ChevronDown } from 'lucide-react';
 import heroImage from '@assets/hero_section_1761631500642.JPG';
 
 const HeroSection = () => {
   const [showElements, setShowElements] = useState(false);
   const { animationsEnabled } = useAnimationContext();
+
+  const scrollToNextSection = () => {
+    const nextSection = document.querySelector('.hero-section + section, .hero-section + div');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section 
@@ -74,6 +82,26 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div 
+        className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 transition-all duration-700 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}
+      >
+        <button
+          onClick={scrollToNextSection}
+          className="flex flex-col items-center gap-2 text-white hover:text-white/80 transition-colors cursor-pointer group"
+          aria-label="Scroll to next section"
+          data-testid="button-scroll-down"
+        >
+          <span className="text-sm tracking-widest uppercase font-light" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
+            Scroll
+          </span>
+          <ChevronDown 
+            className="w-8 h-8 animate-bounce group-hover:animate-none" 
+            style={{ filter: 'drop-shadow(1px 1px 4px rgba(0,0,0,0.7))' }}
+          />
+        </button>
       </div>
 
       {/* Improved mobile responsiveness */}
